@@ -1,0 +1,4 @@
+program:
+	gcc src/fileops.c src/main.c src/material.c src/train.c src/utils.c src/vagon.c -I include -o test
+
+sonra terminale make yaz program oluştuktan sonra ./ ile çalıştır
